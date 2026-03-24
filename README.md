@@ -1,0 +1,1 @@
+# QA-tech-internship-avito
