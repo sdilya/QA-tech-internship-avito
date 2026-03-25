@@ -36,5 +36,19 @@ black avito-api-tests/
 ```bash
 black --check avito-api-tests/
 ```
+# UI-tests(2.2)
+**После установки зависимостей нужно скачать браузеры для UI-тестов:**
+```bash
+playwright install chromium
+```
+**Запуск тестов**
 
+Выполните команду:
+```bash
+pytest avito-ui-tests/ -v
+```
 
+В видимом режиме (показать браузер)
+```bash
+pytest ui-tests/ -v --headed
+```
